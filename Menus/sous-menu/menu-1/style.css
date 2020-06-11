@@ -1,0 +1,38 @@
+body {
+    color: #4E342E;
+}
+
+.menu-1 {
+    border: 1px solid pink;
+    background-color: pink;
+    width: 30%;
+    height: auto;
+    /* width: 283px;
+    height: 400px;*/
+    margin: 10px auto;
+    text-align: center;
+}
+
+.content {
+    margin: 30% auto;
+}
+
+.content i {
+    font-size: 60px;
+    background: -webkit-linear-gradient( left, red, #FFA000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.content h2 {
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-family: 'Sriracha', cursive;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 40px;
+}

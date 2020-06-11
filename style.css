@@ -1,0 +1,212 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* width: 523px;*/
+}
+
+header {
+    text-align: center;
+    background-color: #009688;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFC107;
+}
+
+
+/*************************************/
+
+
+/**==          Section menu         **/
+
+
+/*************************************/
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.menu {
+    height: auto;
+    width: 75%;
+    margin: 30px auto;
+}
+
+.menu a {
+    width: 100%;
+    text-decoration: none;
+}
+
+
+/*******/
+
+
+/*
+.menu a img {
+    width: 100%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px #656565;
+}
+
+*/
+
+
+/*** lien ***/
+
+.menu {
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px #656565;
+    width: 305px;
+    height: 432px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.menu-1 {
+    background-color: pink;
+}
+
+.content {
+    margin: 30% auto;
+}
+
+.menu-1 .content i {
+    font-size: 60px;
+    background: -webkit-linear-gradient( left, red, #FFA000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu .content h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu-1 .content h2 {
+    font-family: 'Ma Shan Zheng', cursive;
+    color: #4E342E;
+}
+
+.menu .content h1 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.menu-1 .content h1 {
+    font-family: 'Sriracha', cursive;
+    color: #4E342E;
+    text-transform: uppercase;
+}
+
+.menu-2 .content h2 {
+    font-family: 'Redressed', cursive;
+    background: -webkit-linear-gradient( left, #E65100, #7C4DFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-2 {
+    background-color: rgb(243, 229, 245, .6);
+}
+
+.menu-2 .content {
+    margin: 50% 0;
+}
+
+.menu-2 .content h1 {
+    text-transform: capitalize;
+    color: #E65100;
+    margin-top: 14px;
+}
+
+.menu-3 .content {
+    font-family: 'Caveat', cursive;
+    margin: 50% 0;
+}
+
+.menu-3 .content h1 {
+    text-transform: capitalize;
+    color: #2196F3;
+    /**/
+    margin-top: 14px;
+}
+
+.menu-3 .content h2 {
+    font-family: 'Dancing Script', cursive;
+    background: -webkit-linear-gradient( left, #1A237E, #2196F3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-4 .content {
+    font-family: 'Caveat', cursive;
+    margin: 50% 0;
+}
+
+.menu-4 .content h1 {
+    text-transform: capitalize;
+    color: #4CAF50;
+    /**/
+    margin-top: 14px;
+}
+
+.menu-4 .content h2 {
+    font-family: 'Kaushan Script', cursive;
+    background: -webkit-linear-gradient( left, #2E7D32, rgb(178, 255, 89, .6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.prochainement {
+    background-color: #009688;
+    color: #FFC107;
+    margin: 0 25%;
+    border-radius: 3px;
+}
+
+section h3 {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    color: #FFC107;
+    font-size: 16px;
+    margin: 30px 0 8px 0;
+    padding: 20px 10px;
+    position: sticky;
+    bottom: 0px;
+}
+
+
+/*
+.images .image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 40px 20px 40px;
+}
+
+.images .image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 8px #555;
+}
+
+
+*/

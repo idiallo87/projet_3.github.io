@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background-color: #009688;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FFC107;
+}
+
+.container {
+    background-color: rgb(243, 229, 245, .6);
+    padding: 10px 5%;
+    width: 80%;
+    margin: 0 auto;
+    color: #4E342E;
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px #656565;
+}
+
+.container h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+.container .menus {
+    margin: 40px 0;
+}
+
+.container .menus h3 {
+    text-align: center;
+}
+
+.container p {
+    font-family: 'Sriracha', cursive;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.container span {
+    float: right;
+    font-family: 'Ma Shan Zheng', cursive;
+    font-size: 14px;
+}
+
+
+/*
+.image {
+    padding: 20px 30px 20px 30px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    box-shadow: 1px 1px 8px #555;
+}*/
+
+.prochainement {
+    background-color: #009688;
+    color: #FFC107;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 10px;
+}
+
+.prochainement p {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #009688;
+    color: #FFC107;
+    font-size: 16px;
+    margin: 30px 0 8px 0;
+    padding: 0 10px 0 10px;
+    position: sticky;
+    bottom: 0px;
+}
